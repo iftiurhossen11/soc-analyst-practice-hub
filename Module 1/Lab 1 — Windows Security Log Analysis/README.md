@@ -175,6 +175,8 @@ The following redacted and synthetic screenshots are placed beside this lab so e
 
 The script reads only the supplied CSV. Its time window is relative to the newest event in the dataset, not the current clock. It does not query live logs or write to Windows event channels. Choose a new output path or pass `-Force` to overwrite a generated report; output files stay local and are ignored by Git.
 
+For a complete readable evidence report, see [`reports/WINDOWS-SECURITY-LOG-ANALYSIS-REPORT.pdf`](reports/WINDOWS-SECURITY-LOG-ANALYSIS-REPORT.pdf). It includes the findings, explanations, limitations, recommendations, timeline, and screenshot catalog.
+
 **Questions**
 
 - Which synthetic source address had the most failed logons? Is that alone proof of a brute-force incident?
