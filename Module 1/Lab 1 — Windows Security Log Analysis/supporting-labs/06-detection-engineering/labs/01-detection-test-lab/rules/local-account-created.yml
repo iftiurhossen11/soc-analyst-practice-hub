@@ -1,0 +1,14 @@
+title: Local User Account Created
+id: 2ac9a682-9fc6-4e16-a85a-2897b33be671
+status: test
+description: Detects a Windows account creation event for analyst review.
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4720
+  condition: selection
+falsepositives:
+  - Approved account provisioning
+level: low

@@ -1,0 +1,4 @@
+timestamp,event_id,account,host,change_type,expected_result
+2026-11-03T05:50:00Z,4720,provisioning.bot,LAB-WIN-01,account_created,positive
+2026-11-03T05:51:00Z,4624,alex.lee,LAB-WIN-01,successful_logon,negative
+2026-11-03T05:52:00Z,4732,admin.lab,LAB-WIN-01,group_membership_changed,correlation_candidate

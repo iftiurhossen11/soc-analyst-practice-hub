@@ -1,0 +1,6 @@
+timestamp_utc,source,event,account_asset,observed_fact
+2026-11-03T05:30:00Z,windows_security,4625 failed logon,alex.lee / LAB-WIN-01,Three failures from 203.0.113.42
+2026-11-03T05:37:00Z,windows_security,4624 successful logon,alex.lee / LAB-WIN-01,Success followed the failures
+2026-11-03T05:40:00Z,windows_security,4648 explicit credentials,svc.backup / LAB-SRV-01,Process context is available in the event
+2026-11-03T05:42:00Z,windows_security,4672 special privileges,admin.lab / LAB-WIN-01,Special privileges were assigned
+2026-11-03T05:45:00Z,mail_gateway,training message,analyst@example.org,Message requests invoice review

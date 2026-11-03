@@ -1,0 +1,22 @@
+# Local evidence and generated lab output
+**/output/*
+**/artifacts/analysis-summary.md
+**/artifacts/unique_ips.txt
+**/artifacts/suspicious_ips.txt
+**/artifacts/not-found-urls.txt
+**/artifacts/run-*/
+**/artifacts/local-capture/
+**/screenshots/private/
+/screenshots/
+*.evtx
+*.pcap
+*.pcapng
+*.etl
+*.dmp
+*.har
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,4 @@
+observable,type,source,first_seen,last_seen,confidence,business_context,expiration,action
+203.0.113.80,ipv4,training dataset,2026-11-03T05:30:00Z,2026-11-03T05:30:00Z,low,documentation example,2026-11-10,do not block
+training.example.net,domain,training dataset,2026-11-03T05:30:00Z,2026-11-03T05:30:00Z,low,reserved example domain,2026-11-10,do not query
+sha256:0000000000000000000000000000000000000000000000000000000000000000,hash,placeholder,2026-11-03T05:30:00Z,2026-11-03T05:30:00Z,low,placeholder only,2026-11-10,do not share
