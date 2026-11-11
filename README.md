@@ -2,7 +2,7 @@
 
 Hands-on, defensive SOC practice using synthetic data and systems you own or are explicitly authorized to investigate.
 
-This repository organizes defensive SOC analyst training into Module 1 and its hands-on labs. Lab 1 contains the earlier SOC practice material, while Lab 2 covers Apache log analysis with CLI tools.
+This repository organizes defensive SOC analyst training into Module 1 and its hands-on labs. Lab 1 contains the earlier SOC practice material, Lab 2 covers Apache log analysis with CLI tools, and Lab 3 covers secure remote administration with SSH/SFTP clients.
 
 ## Learning path
 
@@ -10,6 +10,7 @@ This repository organizes defensive SOC analyst training into Module 1 and its h
 |---|---|---|
 | Module 1 Lab 1 | Earlier SOC practice and capstone material | [Windows Security Log Analysis](<Module 1/Lab 1 — Windows Security Log Analysis/README.md>) |
 | Module 1 Lab 2 | Log analysis with Linux CLI tools | [Apache Log Analysis](<Module 1/Lab 2 — Log Analysis with CLI Tools/README.md>) |
+| Module 1 Lab 3 | Secure remote administration and file transfer | [Remote Access Tools](<Module 1/Lab 3 — Remote Access Tools/README.md>) |
 
 Start with [Module 1](<Module 1/README.md>). Every dataset is synthetic; sample IPs use documentation-only ranges.
 
@@ -38,6 +39,7 @@ Module 1/       Module 1 Windows Security logs and PowerShell
   Lab 1 — Windows Security Log Analysis/  Lab 1 with the earlier practice material
     supporting-labs/  Additional earlier lab material and capstone
   Lab 2 — Log Analysis with CLI Tools/  Lab 2 with CLI log analysis
+    Lab 3 — Remote Access Tools/  Lab 3 with SSH and SFTP clients
 ```
 
 ## Safety and privacy

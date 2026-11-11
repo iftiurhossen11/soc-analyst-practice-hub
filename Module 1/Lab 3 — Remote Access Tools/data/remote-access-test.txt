@@ -1,0 +1,4 @@
+SOC analyst lab sample
+Purpose: authorized SSH/SFTP file transfer practice
+Classification: synthetic and non-sensitive
+Do not add real credentials, logs, or personal information.

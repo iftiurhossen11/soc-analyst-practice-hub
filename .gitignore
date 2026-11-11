@@ -7,6 +7,8 @@
 **/artifacts/run-*/
 **/artifacts/local-capture/
 **/screenshots/private/
+# The supplied Lab 3 PDF contains identifying details; keep the original local-only.
+/Module 1/Lab 3 — Remote Access Tools/reports/Remote_Access_Tools_Lab_Report.pdf
 /screenshots/
 *.evtx
 *.pcap
