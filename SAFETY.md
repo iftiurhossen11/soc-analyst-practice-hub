@@ -20,8 +20,9 @@ This repository is for defensive education. Keep all activity inside an isolated
 
 1. Replace real usernames, email addresses, hostnames, domains, IPs, and organization names with synthetic values.
 2. Remove tokens, cookies, passwords, private keys, internal URLs, and unique identifiers.
-3. Check screenshots for desktop notifications, browser tabs, file paths, and account details.
+3. Check screenshots and documents, including PDFs and their metadata, for desktop notifications, browser tabs, file paths, account details, and other identifiers.
 4. Verify that every sample is synthetic or approved for public release.
-5. Keep original evidence private and preserve it according to your organization's policy.
+5. Keep original evidence private and preserve it according to your organization's policy. In particular, the original Lab 3 report PDF and its unredacted screenshots contain personal and machine-identifying details; keep them local and do not publish them.
+6. Review `git status` and the staged diff before committing. `.gitignore` does not remove files already tracked or staged; never force-add private originals.
 
 The included sample IPv4 addresses come from documentation ranges (`192.0.2.0/24`, `198.51.100.0/24`, and `203.0.113.0/24`) and are not real indicators.
