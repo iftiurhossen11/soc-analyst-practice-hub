@@ -2,7 +2,7 @@
 
 ## Source and privacy note
 
-This sanitized summary is based on the locally supplied `Remote_Access_Tools_Lab_Report.pdf`. The original describes a Windows host connecting to a Kali Linux VM and covers FileZilla Client, WinSCP, PuTTY, and MobaXterm. Identifying names, student details, usernames, profile paths, and host-specific addresses are intentionally not reproduced here. The original PDF is retained locally but excluded from Git until it is sanitized.
+This summary is based on the supplied `Remote_Access_Tools_Lab_Report.pdf`. The original describes a Windows host connecting to a Kali Linux VM and covers FileZilla Client, WinSCP, PuTTY, and MobaXterm. The original PDF remains in the local workspace but is excluded from Git because it includes personal and machine-identifying details. The `screenshots/` folder contains redacted copies of the main screenshots embedded in the original report.
 
 ## Exercise summary
 
@@ -34,4 +34,4 @@ This report summarizes the supplied exercise and is not an independent rerun or 
 1. Repeat the exercise in a host-only VM network and verify the host-key fingerprint before accepting it.
 2. Transfer a harmless test file and compare its SHA-256 hash on both systems.
 3. Complete the [report template](REMOTE-ACCESS-TOOLS-REPORT-TEMPLATE.md) using only sanitized lab details.
-4. Before publishing the original PDF, redact personal identifiers, account/device details, profile paths, private network information, and any sensitive content visible in screenshots.
+4. Before publishing a copy of the original PDF, remove personal identifiers, account/device details, profile paths, private network information, and any sensitive content visible in screenshots.
