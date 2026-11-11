@@ -1,4 +1,4 @@
-﻿# SOC Analyst Practice Hub
+# SOC Analyst Practice Hub
 
 Hands-on, defensive SOC practice using synthetic data and systems you own or are explicitly authorized to investigate.
 
@@ -39,7 +39,7 @@ Module 1/       Module 1 Windows Security logs and PowerShell
   Lab 1 — Windows Security Log Analysis/  Lab 1 with the earlier practice material
     supporting-labs/  Additional earlier lab material and capstone
   Lab 2 — Log Analysis with CLI Tools/  Lab 2 with CLI log analysis
-    Lab 3 — Remote Access Tools/  Lab 3 with SSH and SFTP clients
+  Lab 3 — Remote Access Tools/  Lab 3 with SSH and SFTP clients
 ```
 
 ## Safety and privacy
@@ -48,6 +48,7 @@ Module 1/       Module 1 Windows Security logs and PowerShell
 - Do not run password-guessing, malware, exploit, or unauthorized authentication tests.
 - Do not publish real event logs, `.evtx` files, screenshots, usernames, hostnames, tokens, or customer data.
 - The screenshots supplied with the source material show a real Windows profile, computer name, and Security log activity. The published copies have account and device identifiers redacted; never publish the unredacted originals. See the [Module 1 screenshot guide](<Module 1/Lab 1 — Windows Security Log Analysis/screenshots/README.md>) for image descriptions and synthetic demonstrations.
+- Lab 3's original report PDF and unredacted source screenshots contain personal and machine-identifying details. They are kept locally and excluded from Git; do not force-add or publish them.
 - All findings are hypotheses until validated against authorized, relevant context. A single event is not proof of compromise.
 
 See [SAFETY.md](SAFETY.md) before starting. Contributions and lab reports should use synthetic or properly sanitized data.
