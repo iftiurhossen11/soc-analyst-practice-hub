@@ -29,9 +29,7 @@ Keep the exercise on a VirtualBox **host-only** network between your own host an
 - [`data/remote-access-test.txt`](data/remote-access-test.txt) — harmless sample file for SFTP transfer and hash comparison
 - [`reports/LAB-3-COMPLETION-REPORT.md`](reports/LAB-3-COMPLETION-REPORT.md) — sanitized summary of the supplied lab report
 - [`reports/REMOTE-ACCESS-TOOLS-REPORT-TEMPLATE.md`](reports/REMOTE-ACCESS-TOOLS-REPORT-TEMPLATE.md) — report template for a repeat of the exercise
-- [`artifacts/README.md`](artifacts/README.md) — expected analyst deliverables
-- [`screenshots/README.md`](screenshots/README.md) — safe evidence capture guidance
-- `reports/Remote_Access_Tools_Lab_Report.pdf` — original source PDF, retained locally and excluded from Git because it contains identifying information
+- [`screenshots/private/`](screenshots/private/) — exact original screenshots extracted from the source PDF; local-only and Git-ignored
 
 ## Tools covered
 
@@ -109,7 +107,7 @@ See the [completion report](reports/LAB-3-COMPLETION-REPORT.md) for a sanitized 
 
 ## Evidence and reporting
 
-Complete the [report template](reports/REMOTE-ACCESS-TOOLS-REPORT-TEMPLATE.md). Record the protocol, port, independently verified fingerprint result, test-file hash comparison, client differences, and any connection errors. Use the [artifact guide](artifacts/README.md) and [screenshot guide](screenshots/README.md) to prepare safe evidence.
+Complete the [report template](reports/REMOTE-ACCESS-TOOLS-REPORT-TEMPLATE.md). Record the protocol, port, independently verified fingerprint result, test-file hash comparison, client differences, and any connection errors. Keep all evidence sanitized.
 
 | Exercise | Evidence to record |
 |---|---|
@@ -119,7 +117,11 @@ Complete the [report template](reports/REMOTE-ACCESS-TOOLS-REPORT-TEMPLATE.md). 
 | File transfer | Transfer directions and matching/non-matching SHA-256 hashes |
 | Cleanup | Test-file removal, saved-session cleanup, and SSH service state |
 
-Do not publish the original PDF or unredacted screenshots. The source report includes identifying details, and its described network has both host-only and NAT adapters; this lab removes NAT for the exercise. See the [sanitized completion report](reports/LAB-3-COMPLETION-REPORT.md).
+The original PDF and exact, unmodified screenshots extracted from it are kept in the local workspace but excluded from Git because they contain personal and machine-identifying information. The source report also describes both host-only and NAT adapters; this lab removes NAT for the exercise. See the [completion report](reports/LAB-3-COMPLETION-REPORT.md).
+
+### Screenshot evidence
+
+The source PDF contains the original screenshots. Exact image files are kept locally in [`screenshots/private/`](screenshots/private/) and are excluded from Git. No mockup or generated screenshots are included in the repository. The supplied PDF shows the MobaXterm start screen, not a connected remote session.
 
 ## Safety
 
